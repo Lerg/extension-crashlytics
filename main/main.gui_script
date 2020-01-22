@@ -23,8 +23,6 @@ local function plog(t)
 	log(pretty_print(t))
 end
 
-crashlytics.init()
-
 -- Button handlers.
 
 local function init_pressed(self)
